@@ -7,7 +7,7 @@
 <!-- Passos a se seguir -->
 
 <p>
-  <div align="right">
+  <div align="left">
     <h3> Primeiros passos: </h3>
   </div>
 </p>
