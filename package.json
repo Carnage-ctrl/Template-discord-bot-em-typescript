@@ -1,0 +1,22 @@
+{
+  "name": "jest-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/Index.ts",
+    "test": "jest src/* --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.0.0",
+    "discord.js": "^12.5.3",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "keywords": [],
+  "description": ""
+}
