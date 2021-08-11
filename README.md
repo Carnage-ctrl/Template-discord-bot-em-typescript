@@ -27,9 +27,4 @@
             prefix: "$",
             token: "SEU_TOKEN_AQUI",
       };
-      
-<p>
-   <div align="left">
-     <h4> E altere colocando seu token no no lugar de "SEU_TOKEN_AQUI"! Você também pode fazer outras alterações, como no prefix ou no nome do seu bot. Feito tudo isso, você finalmente pode inicializar seu bot com o seguinte comando no terminal: <code>npm start</code> ou <code>npm run start</code>.<br>Em alguns casos, pode acontecer de dar erro na inicialização através desses métodos, se esse for o seu caso, basta você digitar no terminal:<code>ts-node src/Index.ts</code> (Isso julgando que você esteja na pasta principal). </h4>
-   </div>
-</p>
+
