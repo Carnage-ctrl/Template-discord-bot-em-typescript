@@ -10,7 +10,7 @@
 <p>
   <div align="left">
     <h3><code>Primeiros passos:</code></h3>
-    <h4>Instale todas as dependências existentes do arquivo package.json utilizando o comando <code>npm install -y</code><br></br><code>npm install -y</code><br></br> Só um detalhe, para você ter que fazer isso, você tem que inicializar o npm antes com o comando <code> npm init -y</code></h4>
+    <h4>Instale todas as dependências existentes do arquivo package.json utilizando o comando <code>npm install -y</code><br></br> Só um detalhe, para você ter que fazer isso, você tem que inicializar o npm antes com o comando <code> npm init -y</code></h4>
   </div>
 </p>
 
