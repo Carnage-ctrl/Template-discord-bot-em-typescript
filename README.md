@@ -10,5 +10,26 @@
 <p>
   <div align="left">
     <h3><code>Primeiros passos:</code></h3>
+    <h4>Instale todas as dependências existentes do arquivo package.json utilizando o comando <code>npm install -y</code><br></br><code>npm install -y</code><br></br> Só um detalhe, para você ter que fazer isso, você tem que inicializar o npm antes com o comando <code> npm init -y</code></h4>
   </div>
+</p>
+
+<p>
+   <div align="left">
+     <h3><code>Alterando o token do bot:</code></h3>
+     <h4> Para alterar o token do bot basta você ir no arquivo connySettings.ts (src/connySettings.ts).
+       Procure pela parte do código na qual está escrito a seguinte coisa:</h4>
+   </div>
+</p>
+
+      const loginSettings: connySettings = {
+            nome: "Conny",
+            prefix: "$",
+            token: "SEU_TOKEN_AQUI",
+      };
+      
+<p>
+   <div align="left">
+     <h4> E altere colocando seu token no no lugar de "SEU_TOKEN_AQUI"! Você também pode fazer outras alterações, como no prefix ou no nome do seu bot. Feito tudo isso, você finalmente pode inicializar seu bot com o seguinte comando no terminal: <code>npm start</code> ou <code>npm run start</code>.<br>Em alguns casos, pode acontecer de dar erro na inicialização através desses métodos, se esse for o seu caso, basta você digitar no terminal:<code>ts-node src/Index.ts</code> (Isso julgando que você esteja na pasta principal). </h4>
+   </div>
 </p>
